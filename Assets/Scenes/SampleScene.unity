@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c90d118630eb3040b31940de86ed137, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CamaraSigue
-  objetivo: {fileID: 0}
+  objetivo: {fileID: 1501300424}
   suavizado: 5
   offset: {x: 0, y: 0, z: -10}
 --- !u!1 &552166890
