@@ -693,7 +693,7 @@ MonoBehaviour:
   sombrero: {fileID: 0}
   lentes: {fileID: 0}
   espada: {fileID: 0}
-  efectoParticulas: {fileID: 0}
+  efectoParticulas: {fileID: 1511973136}
 --- !u!1 &1511973133
 GameObject:
   m_ObjectHideFlags: 0
