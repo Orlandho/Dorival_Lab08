@@ -56,4 +56,17 @@ ParticleSystemStopBehavior.StopEmittingAndClear);
 efectoParticulas.Play();
 }
 }
+public void ReemplazarEspada(EspadaRecolectable nuevaEspada)
+    {
+    if (espada == null) return;
+    
+    SpriteRenderer sr = espada.GetComponent<SpriteRenderer>();
+    if (sr != null)
+    {
+        sr.color = nuevaEspada.nuevoColor;
+	        espada.transform.localScale = new Vector3(nuevaEspada.nuevoAncho, nuevaEspada.nuevoLargo, 1);
+        Debug.Log("¡Espada Roja obtenida!");
+        ActivarEfecto();
+    }
+    }
 }
